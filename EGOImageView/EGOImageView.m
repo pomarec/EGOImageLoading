@@ -52,7 +52,7 @@
         [self addSubview:self.activityIndicator];
         CGSize activityIndicatorSize = self.activityIndicator.frame.size;
         self.activityIndicator.frame = CGRectMake(self.frame.size.width/2 - activityIndicatorSize.width/2,
-                                                  self.frame.size.width/2 - activityIndicatorSize.width/2,
+                                                  self.frame.size.height/2 - activityIndicatorSize.height/2,
                                                   activityIndicatorSize.width, activityIndicatorSize.height);
     }
     
